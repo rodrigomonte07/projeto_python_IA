@@ -1,40 +1,48 @@
-# projeto_python_IA
+# 🎯 Credit Score Prediction AI
 
-# Passo a passo
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-# Passo 0 - Entender a empresa e o desafio da empresa
+## 📋 Project Overview
 
-# Passo 1 - Importar a base de dados
+Este é um projeto de **Inteligência Artificial** desenvolvido para prever o **Score de Crédito** dos clientes de um banco. O modelo analisa dados financeiros e comportamentais dos clientes para classificá-los em três categorias:
 
-# Score de crédito = Nota de crédito
-# Good = Boa
-# Standard = OK
-# Poor = Ruim
+- 🟢 **Good** - Score de crédito bom
+- 🟡 **Standard** - Score de crédito padrão
+- 🔴 **Poor** - Score de crédito ruim
 
-# Passo 2 - Preparar a base de dados para a Inteligência Artificial
+## 🎯 Objetivo
 
-# LabelEncoder
+Criar um modelo de IA capaz de:
+- ✅ Analisar dados de 100.000 clientes
+- ✅ Identificar padrões de creditabilidade
+- ✅ Fazer previsões precisas do score de crédito
+- ✅ Comparar performance de diferentes algoritmos
 
-# y -> é a coluna da base de dados que eu quero prever
+## 📊 Dataset
 
-# x -> as colunas da base de dados que eu vou usar pra fazer a previsão
+O projeto utiliza **100.000 registros** com features como:
+- Idade, profissão, salário anual
+- Número de contas, cartões, empréstimos
+- Dias em atraso, dívida total
+- Taxa de uso de crédito
 
-# separar em dados de treino e dados de teste
+## 🤖 Algoritmos
 
-# Passo 3 - Treinar a Inteligência Artificial -> 
-# Criar o modelo: Nota de crédito: Boa, Ok, Ruim
+- **Random Forest** - Ensemble de árvores de decisão
+- **K-Nearest Neighbors** - Algoritmo baseado em proximidade
 
-# Arvore de Decisão -> RandomForest
-# Nearest Neighbors -> KNN -> Vizinhos Próximos
+## 📈 Processo
 
-# importar a IA (Inteligencia Artificial)
-# criar a IA
-# treinar a IA
+1. Importar dados
+2. Preparar e codificar dados
+3. Treinar modelos
+4. Avaliar acurácia
+5. Fazer previsões
 
-# Passo 4 - Escolher qual o melhor modelo
-# acurácia
+## 🚀 Como Usar
 
-# Passo 5 - Usar o melhor modelo para fazer previsão de novos clientes
-# melhor modelo é o modelo_arvoredecisao
-
-# importar os novos clientes para fazer a previsao
+```bash
+git clone https://github.com/rodrigomonte07/analise_dados_IA.git
+jupyter notebook inicial.ipynb
